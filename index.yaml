@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  prometheus-yace-exporter:
+  - apiVersion: v1
+    appVersion: 0.13.7
+    created: 2019-09-06T10:42:00.51581+01:00
+    description: A Helm chart for YACE exporter
+    digest: d3326bbb543ae70e1a063dcf4938117a95a761b31bc41fd50e24096fc57cf685
+    home: https://github.com/ivx/yet-another-cloudwatch-exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: garridomota@gmail.com
+      name: mogaal
+    name: prometheus-yace-exporter
+    sources:
+    - https://github.com/ivx/yet-another-cloudwatch-exporter
+    urls:
+    - prometheus-yace-exporter-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-09-06T10:42:00.511856+01:00
