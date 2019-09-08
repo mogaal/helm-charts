@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: "4.7.3"
+description: A Helm chart for Adminer 
+name: adminer
+version: 0.1.0
+home: https://www.adminer.org
+maintainers:
+- name: mogaal
+  email: garridomota@gmail.com
