@@ -4,6 +4,6 @@
 
 Add the repo via:
 ```console
-$ helm repo add zammad https://mogaal.github.io/helm-charts/
+$ helm repo add mogaal https://mogaal.github.io/helm-charts/
 ```
 
