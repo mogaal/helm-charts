@@ -27,6 +27,13 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
+          env:
+          - name: ADMINER_PLUGINS
+            value: {{ .Values.config.plugins }}
+          - name: ADMINER_DESIGN
+            value: {{ .Values.config.design }}
+          - name: ADMINER_DEFAULT_SERVER
+            value: {{ .Values.config.externalserver }}
           livenessProbe:
             httpGet:
               path: /
