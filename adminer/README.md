@@ -47,7 +47,7 @@ The following table lists the configurable parameters of the YACE Exporter chart
 | `config.design`                   | A bundled design to use. You can find the list of designs on [GitHub](https://github.com/vrana/adminer/tree/master/designs)| ``|
 | `config.externalserver`           | The default host                                                        | ``                          |
 | `command`                         | Container entrypoint command                                            | `[]`                        |
-| `service.type`                    | Service type                                                            | `ClusterIP`                 |
+| `service.type`                    | Service type                                                            | `NodePort`                  |
 | `service.port`                    | The service port                                                        | `80`                        |
 | `service.annotations`             | Custom annotations for service                                          | `{}`                        |
 | `service.labels`                  | Additional custom labels for the service                                | `{}`                        |
