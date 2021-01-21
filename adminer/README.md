@@ -41,14 +41,19 @@ The following table lists the configurable parameters of the YACE Exporter chart
 | Parameter                         | Description                                                             | Default                     |
 | --------------------------------- | ----------------------------------------------------------------------- | --------------------------- |
 | `image.repository`                | Image                                                                   | `adminer`                   |
-| `image.tag`                       | Image tag                                                               | `standalone`                |
+| `image.tag`                       | Image tag                                                               | `4.7.5-standalone`          |
 | `image.pullPolicy`                | Image pull policy                                                       | `IfNotPresent`              |
+| `config.plugins`                  | List of plugins to install. You can find the list of plugins on [GitHub](https://github.com/vrana/adminer/tree/master/plugins)| ``|
+| `config.design`                   | A bundled design to use. You can find the list of designs on [GitHub](https://github.com/vrana/adminer/tree/master/designs)| ``|
+| `config.externalserver`           | The default host                                                        | ``                          |
 | `command`                         | Container entrypoint command                                            | `[]`                        |
-| `service.type`                    | Service type                                                            | `ClusterIP`                 |
+| `service.type`                    | Service type                                                            | `NodePort`                  |
 | `service.port`                    | The service port                                                        | `80`                        |
 | `service.annotations`             | Custom annotations for service                                          | `{}`                        |
 | `service.labels`                  | Additional custom labels for the service                                | `{}`                        |
-| `resources`                       |                                                                         | `{}`                        |
+| `service.loadBalancerIP`          | LoadBalancerIP if service type is `LoadBalancer`                        | `nil`                       |
+| `service.loadBalancerSourceRanges`| Address that are allowed when svc is `LoadBalancer`                     | `[]`                        |
+| `resources`                       | CPU/Memory resource requests/limits                                     | `{}`                        |
 | `config`                          | YACE configuration (default found in the webpage)                       | `example configuration`     |
 | `rbac.create`                     | If true, create & use RBAC resources                                    | `false`                     |
 | `tolerations`                     | Add tolerations                                                         | `[]`                        |
