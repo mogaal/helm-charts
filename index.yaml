@@ -3,7 +3,7 @@ entries:
   adminer:
   - apiVersion: v1
     appVersion: 4.7.5
-    created: "2021-01-26T20:10:32.70944143Z"
+    created: "2021-01-26T20:12:13.572011125Z"
     description: A Helm chart for Adminer
     digest: 5785addc93f24aae2bd79b32386b066edc210f73906da8dd4c8a9deabb1af217
     home: https://www.adminer.org
@@ -16,7 +16,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 4.7.3
-    created: "2021-01-26T20:10:32.709108235Z"
+    created: "2021-01-26T20:12:13.571665041Z"
     description: A Helm chart for Adminer
     digest: 841d77b380f5fc91cfb97c64e3494d4c3dfa6faef70c836c92111feb9105c416
     home: https://www.adminer.org
@@ -30,7 +30,7 @@ entries:
   prometheus-yace-exporter:
   - apiVersion: v1
     appVersion: 0.13.7
-    created: "2021-01-26T20:10:32.710484356Z"
+    created: "2021-01-26T20:12:13.573076803Z"
     description: A Helm chart for YACE exporter
     digest: f47a52daf98d5a97417c8f03ffd852fc430b08798a60c546e789c448573c556a
     home: https://github.com/ivx/yet-another-cloudwatch-exporter
@@ -50,7 +50,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.13.7
-    created: "2021-01-26T20:10:32.709965804Z"
+    created: "2021-01-26T20:12:13.572545868Z"
     description: A Helm chart for YACE exporter
     digest: d3326bbb543ae70e1a063dcf4938117a95a761b31bc41fd50e24096fc57cf685
     home: https://github.com/ivx/yet-another-cloudwatch-exporter
@@ -68,4 +68,4 @@ entries:
     urls:
     - https://mogaal.github.io/helm-charts/prometheus-yace-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-26T20:10:32.708729269Z"
+generated: "2021-01-26T20:12:13.571292665Z"
