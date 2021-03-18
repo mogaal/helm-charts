@@ -3,7 +3,7 @@ entries:
   adminer:
   - apiVersion: v1
     appVersion: 4.7.5
-    created: "2021-01-26T20:12:13.572011125Z"
+    created: "2021-03-18T15:37:17.095843571Z"
     description: A Helm chart for Adminer
     digest: 5785addc93f24aae2bd79b32386b066edc210f73906da8dd4c8a9deabb1af217
     home: https://www.adminer.org
@@ -16,7 +16,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 4.7.3
-    created: "2021-01-26T20:12:13.571665041Z"
+    created: "2021-03-18T15:37:17.095317181Z"
     description: A Helm chart for Adminer
     digest: 841d77b380f5fc91cfb97c64e3494d4c3dfa6faef70c836c92111feb9105c416
     home: https://www.adminer.org
@@ -30,7 +30,27 @@ entries:
   prometheus-yace-exporter:
   - apiVersion: v1
     appVersion: 0.13.7
-    created: "2021-01-26T20:12:13.573076803Z"
+    created: "2021-03-18T15:37:17.098704667Z"
+    description: A Helm chart for YACE exporter
+    digest: 5ae81f634033cbd0798e318328f0b46f9912ddcb7e715af14a4e787b2bb0caef
+    home: https://github.com/ivx/yet-another-cloudwatch-exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: garridomota@gmail.com
+      name: mogaal
+    name: prometheus-yace-exporter
+    sources:
+    - https://github.com/ivx/yet-another-cloudwatch-exporter
+    urls:
+    - https://mogaal.github.io/helm-charts/prometheus-yace-exporter-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: 0.13.7
+    created: "2021-03-18T15:37:17.097885591Z"
     description: A Helm chart for YACE exporter
     digest: f47a52daf98d5a97417c8f03ffd852fc430b08798a60c546e789c448573c556a
     home: https://github.com/ivx/yet-another-cloudwatch-exporter
@@ -50,7 +70,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.13.7
-    created: "2021-01-26T20:12:13.572545868Z"
+    created: "2021-03-18T15:37:17.097094933Z"
     description: A Helm chart for YACE exporter
     digest: d3326bbb543ae70e1a063dcf4938117a95a761b31bc41fd50e24096fc57cf685
     home: https://github.com/ivx/yet-another-cloudwatch-exporter
@@ -68,4 +88,4 @@ entries:
     urls:
     - https://mogaal.github.io/helm-charts/prometheus-yace-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-26T20:12:13.571292665Z"
+generated: "2021-03-18T15:37:17.094737217Z"
