@@ -8,6 +8,7 @@ image:
   repository: quay.io/invisionag/yet-another-cloudwatch-exporter
   tag: v0.13.7
   pullPolicy: IfNotPresent
+  imagePullSecrets: []
 
 nameOverride: ""
 fullnameOverride: ""
