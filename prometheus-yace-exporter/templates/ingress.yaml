@@ -4,6 +4,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app.kubernetes.io/name: {{ include "prometheus-yace-exporter.name" . }}
     helm.sh/chart: {{ include "prometheus-yace-exporter.chart" . }}
