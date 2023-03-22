@@ -19,6 +19,10 @@ spec:
 {{- if .Values.serviceMonitor.telemetryPath }}
     path: {{ .Values.serviceMonitor.telemetryPath }}
 {{- end }}
+{{- if .Values.serviceMonitor.metricRelabelings }}
+    metricRelabelings:
+{{ toYaml .Values.serviceMonitor.metricRelabelings | indent 4 }}
+{{- end }}
 {{- if .Values.serviceMonitor.timeout }}
     scrapeTimeout: {{ .Values.serviceMonitor.timeout }}
 {{- end }}
